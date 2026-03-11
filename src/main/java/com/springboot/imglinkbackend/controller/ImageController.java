@@ -15,7 +15,7 @@ import java.io.IOException;
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://your-frontend.vercel.app")
+@CrossOrigin(origins = "*")
 public class ImageController {
 
     @Autowired
